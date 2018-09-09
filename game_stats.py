@@ -4,8 +4,8 @@ class GameStats():
     def __init__(self, ai_settings):
         """ init statistic """
         self.ai_settings = ai_settings
-        # active run game
-        self.game_active = True
+        # run game in no acnive
+        self.game_active = False
         self.reset_stats()
 
     def reset_stats(self):

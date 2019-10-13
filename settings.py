@@ -1,4 +1,4 @@
-class Settings():
+class Settings:
     """ main game settings class """
 
     def __init__(self):
@@ -21,7 +21,7 @@ class Settings():
         self.fleet_drop_speed = 20
 
         # game speed
-        self.speedup_scale = 1.1
+        self.speedup_scale = 1.0
         # score scale
         self.score_scale = 1.5
 
@@ -29,9 +29,9 @@ class Settings():
 
     def initialize_dynamic_settings(self):
         """ init dynamic settings """
-        self.ship_speed_factor = 3
-        self.bullet_speed_factor = 15
-        self.alien_speed_factor = 1
+        self.ship_speed_factor = 2
+        self.bullet_speed_factor = 2
+        self.alien_speed_factor = 0.5
         # fleet_direction = 1 move right, -1 move left
         self.fleet_direction = 1
         # score

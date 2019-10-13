@@ -8,7 +8,8 @@ pip3 install -r requirements.txt
 ```
 
 # Usage
-settings.py -> game settings
+game/settings.py -> game settings
 ```bash
+cd game
 python3 alien_invasion.py
 ```
